@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+header {
+  font-size: 2em;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #333;
+}
+#controls {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #333;
+}
+#controls button {
+  font-size: 1em;
+}
+#orange-tree-template {
+  display: none;
+}
+div.orange-tree {
+  background: url('../images/tree_big.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  float: left;
+  text-align: center;
+}
+div.orange-tree {
+  margin: 10px;
+}
+div.orange-tree.dead button {
+  display: none;
+}
+div.orange-tree.alive {
+  border: 1px solid #333;
+}
+div.orange-tree.dead {
+  border: 1px solid #eee;
+  opacity: 0.5;
+}
+div.orange-tree p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  font-size: 1em;
+  opacity: 0.8;
+}
+div.orange-tree button {
+  opacity: 0.8;
+  font-size: 1em;
+  margin: 10px;
+}
